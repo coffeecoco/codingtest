@@ -8,10 +8,5 @@ install:
   - pip install isort
   - pip install python-json-logger
   - pip install flask
-  - mkdir /app
-  - cp scripts/* /app/scripts/
-  - cp src /app/src
-  - cp tests /app/tests
-  - cp pyproject.toml /app
 script:
     - sh scripts/unittest.sh
