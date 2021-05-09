@@ -16,3 +16,8 @@ python scripts/generate.py -sn ${CONTAINER_NAME} -v ${CONTAINER_VER} -gsha ${GIT
 docker build -t ${CONTAINER_NAME}:${CONTAINER_VER} .
 docker build -t ${CONTAINER_NAME}:latest .
 
+# if I had a secure pipeline
+# storing of unittest coverage
+# i would versionn these builds with e.g pycalver
+# tag the git repo after builds
+# have a the typical develop branch mergingn to master etc.

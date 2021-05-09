@@ -24,7 +24,7 @@ Steps:
 8. Open browser http://127.0.0.1:5000/
 9. Open browser http://127.0.0.1:5000/status
 
-unittests are available in traviscit
+unittests are available in travisci which only runs unittests.
 https://travis-ci.com/github/coffeecoco/codingtest
 
 
