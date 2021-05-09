@@ -22,10 +22,10 @@ class Tests(unittest.TestCase):
         get = self.app.get('/status', follow_redirects=True)
         self.assertEqual(get.status_code, 200)
         service_name = 'myapplication'
-        version = '5161f43'
+        version = 'lastcommitsha'
         response = json.loads(get.get_data(as_text=True))
         self.assertIn(service_name, response)
-        self.assertIn(version, response[service_name][0]['lastcommitsha'])
+        self.assertIn(version, response[service_name][0])
 
 
 

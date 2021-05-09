@@ -11,7 +11,6 @@ python scripts/generate.py -sn ${CONTAINER_NAME} -v ${CONTAINER_VER} -gsha ${GIT
 
 echo "Unittests"
 poetry install
-mkdir -p src
 pip install pycodestyle
 pip install isort
 poetry install

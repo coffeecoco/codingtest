@@ -3,7 +3,7 @@ payload = {
     {
       'version': '1.0',
       'description': 'pre-interview technical test',
-      'lastcommitsha': '5161f43',
+      'lastcommitsha': '1062851',
       'log_level': 'INFO'
     }
   ]

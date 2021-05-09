@@ -2,8 +2,16 @@ from flask import Flask, jsonify
 from flask import request
 
 import os
-from environment import payload
-from loghandler.logger import info, log_error
+try:
+    from environment import payload
+except ImportError:
+    from .environment import payload
+try:
+    from environment import payload
+    from loghandler.logger import info, log_error
+except ImportError:
+    from .environment import payload
+    from .loghandler.logger import info, log_error
 
 app = Flask(__name__)
 
