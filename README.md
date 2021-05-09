@@ -24,6 +24,9 @@ Steps:
 8. Open browser http://127.0.0.1:5000/
 9. Open browser http://127.0.0.1:5000/status
 
+unittests are available in traviscit
+https://travis-ci.com/github/coffeecoco/codingtest
+
 
 Simple 404 error handler
 Structured logging for SIEM, this is a cut down version of my logger but ver capable and scalable.
