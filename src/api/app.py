@@ -17,13 +17,11 @@ app = Flask(__name__)
 
 @app.route('/', methods=['GET'])
 def get_api_hello():
-    logmessage = request.args.get('logmessage')
     info("Executed")
     return "Hello World"
 
 @app.route('/status', methods=['GET'])
 def get_api():
-    logmessage = request.args.get('logmessage')
     info("Executed")
     return jsonify(payload)
 

@@ -1,6 +1,6 @@
-echo "Move unittests Docker file"
+#!/bin/bash -ex
 cp cicd/unittests/Dockerfile .
-echo "Unittests Docker Build"
+set -e
 
 
 GIT_BRANCH=$(git branch | grep \* | cut -d ' ' -f2 | tr '[:upper:]' '[:lower:]')

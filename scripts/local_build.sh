@@ -1,6 +1,5 @@
 #!/bin/bash -ex
 cp cicd/build/Dockerfile .
-
 set -e
 
 

@@ -19,8 +19,6 @@ RUN \
 
 
 WORKDIR /app
-
-WORKDIR /app
 #RUN ls -lah /app/entrypoint.sh
 WORKDIR /app
 EXPOSE 5000

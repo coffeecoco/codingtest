@@ -9,4 +9,4 @@ install:
   - pip install python-json-logger
   - pip install flask
 script:
-    - sh scripts/unittest.sh
+    - sh scripts/travisci_unittest.sh
