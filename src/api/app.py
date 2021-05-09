@@ -2,6 +2,7 @@ from flask import Flask, jsonify
 from flask import request
 
 import os
+# some unusal behavious leading environment so this is a temp workaround
 try:
     from environment import payload
 except ImportError:
